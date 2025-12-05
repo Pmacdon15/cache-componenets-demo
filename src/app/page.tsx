@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen items-center justify-center font-sans">
       <div className="container ">
-        <h1 className="text-4xl font-bold mb-4">Cache Component Tests</h1>
+        <h1 className="text-4xl font-bold mb-4">Cache Component Demo</h1>
         <p className="mb-8">
           This project demonstrates the differences between various component
           rendering strategies in Next.js 16^
