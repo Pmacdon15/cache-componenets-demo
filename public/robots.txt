@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.cache-components-demo.patmac.ca
+
+# Sitemaps
+Sitemap: https://www.cache-components-demo.patmac.ca/sitemap.xml
