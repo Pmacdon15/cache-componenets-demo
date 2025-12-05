@@ -44,6 +44,13 @@ export default function Home() {
             <button type="button">PPR Load</button>
           </Link>
         </div>
+        <p className="mt-2">
+          The first method is the slowest, the second method is better but the
+          whole page is blocked while the data fetches. The third is the best
+          because you can load the static shell of the page while allowing all 
+          dynamic content to be fetch in parallel and data that is not behind auth 
+          to can be cached across all deployments allowing the data to be there on page load. 
+        </p>
       </div>
     </div>
   );
