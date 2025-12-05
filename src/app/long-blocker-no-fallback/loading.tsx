@@ -53,7 +53,7 @@ export default function Home() {
           data fetches. This compounds if you use several awaits in sequence. Now
           you could improve the second method by loading the data in the child
           components and using suspense and better fallbacks but the page would
-          still have to be rendered on the server. Also you couldn't have cached
+          still have to be rendered on the server. Also you couldn't see cached
           dynamic data instantly. The navigation to the page would feel slower
           then a route using PPR.
         </p>{" "}
