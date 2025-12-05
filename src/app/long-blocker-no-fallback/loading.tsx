@@ -8,18 +8,18 @@ export default function Home() {
         <p className="mb-8">
           This project demonstrates the differences between various component caching strategies in Next.js.
         </p>
-        <div className="flex gap-4 justify-center">
-          <Link href={"/long-blocker-no-fallback"}>
+        <div className="flex flex-col gap-4 justify-center md:flex-row">
+          <Link href={"/long-blocker-no-fallback"} className="w-full md:w-auto text-center">
             <button type="button">
               Long Blocker (No Fallback)
             </button>
           </Link>
-          <Link href={"/long-blocker-fallback"}>
+          <Link href={"/long-blocker-fallback"} className="w-full md:w-auto text-center">
             <button type="button">
               Long Blocker (With Fallback)
             </button>
           </Link>
-          <Link href={"/long-blocker-ppr-load"}>
+          <Link href={"/long-blocker-ppr-load"} className="w-full md:w-auto text-center">
             <button type="button">
               PPR Load
             </button>

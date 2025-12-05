@@ -35,7 +35,7 @@ export default function Page() {
         </div>
       </div>
       <div className="mt-8 text-center">
-        <Link href="/">
+        <Link href="/" className="w-full md:w-auto">
           <button type="button">Back to Home</button>
         </Link>
       </div>

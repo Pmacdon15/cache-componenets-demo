@@ -8,7 +8,7 @@ export default async function Page() {
       <h1 className="text-2xl font-bold mb-4">Long Blocker with Fallback</h1>
       <p>This content is rendered after a delay, with a loading fallback.</p>
       <div className="mt-8">
-        <Link href="/">
+        <Link href="/" className="w-full md:w-auto">
           <button type="button">Back to Home</button>
         </Link>
       </div>
