@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-	title: 'Cached Components Demo',
+	title: 'Cache Components Demo',
 	description: 'Test PPR and Cached Components',
 }
 
