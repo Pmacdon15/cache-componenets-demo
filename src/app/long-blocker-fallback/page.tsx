@@ -1,5 +1,5 @@
-import { getDelayedData } from "@/lib/DAL/dal";
 import Link from "next/link";
+import { getDelayedData } from "@/lib/DAL/dal";
 
 export default async function Page() {
   await getDelayedData();
