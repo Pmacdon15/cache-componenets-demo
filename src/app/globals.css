@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f0f2f5;
+  --foreground: #1a1a1a;
+  --primary-accent: #007bff;
+  --secondary-accent: #6c757d;
+  --border-color: #dee2e6;
 }
 
 @theme inline {
@@ -14,13 +17,49 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #1a1a1a;
+    --foreground: #f8f9fa;
+    --primary-accent: #007bff;
+    --secondary-accent: #6c757d;
+    --border-color: #343a40;
   }
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(to right, var(--background), #e9ecef);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: var(--background);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: var(--primary-accent);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+button {
+  background-color: var(--primary-accent);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
