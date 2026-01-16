@@ -40,9 +40,9 @@ export default function Page() {
 					<h2 className="mb-2 font-semibold text-xl">
 						Dynamic cached content
 					</h2>
-					<Suspense>
+					
 						<CachedContent />
-					</Suspense>
+				
 				</div>
 			</div>
 			<div className="mt-8 text-center">
